@@ -1,49 +1,56 @@
-# Contest Tracker — Simple
+# Contest Tracker 🚀
 
-This is a minimal contest tracker inspired by the referenced GitHub project. It is purposefully small and easy to understand.
-
-How to run:
-
-```bash
-npm install
-npm run dev
-```
-
-Open the local URL shown (e.g. `http://localhost:5173` or `5174`).
-
-Notes:
-- The app fetches contest lists from `https://kontests.net/api/v1/all` and falls back to sample data when the API is unreachable.
-- Click "Enable Notifications" and allow permission to get browser alerts before contests.
-# Contest Tracker
-
-A React + TypeScript website that lists upcoming coding contests and sends browser notifications before they begin.
+A simple web application to track upcoming programming contests from platforms like Codeforces, CodeChef, LeetCode, AtCoder, and more.
 
 ## Features
 
-- Fetches contest data from the public Kontests API
-- Shows upcoming contests sorted by start time
-- Filters contests by platform
-- Lets you choose notification lead time in minutes
-- Sends browser notifications for contests starting soon
+- 📅 View upcoming contests
+- 🔍 Filter contests by platform
+- ⏰ Browser notifications before contests start
+- 🌐 Fetches live contest data from Kontests API
+- 📱 Responsive design
 
-## Run Locally
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- Kontests API
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ParthSharma532007/Contest-Tracker.git
+```
+
+Install dependencies:
 
 ```bash
 npm install
+```
+
+Run the project:
+
+```bash
 npm run dev
 ```
 
-Then open the local URL shown in terminal (typically `http://localhost:5173`).
+## API Used
 
-## Build for Production
+- https://kontests.net/api/v1/all
 
-```bash
-npm run build
-npm run preview
-```
+## Future Improvements
 
-## Notification Notes
+- Add dark mode
+- Add calendar integration
+- User login and personalized reminders
 
-- Click **Enable Notifications** in the app.
-- Keep the tab open to receive alerts.
-- If notifications are blocked, allow them in browser site settings.
+## Author
+
+**Parth Sharma**
+
+- IIIT Bhopal
+- Web Developer
+- GitHub: https://github.com/ParthSharma532007
